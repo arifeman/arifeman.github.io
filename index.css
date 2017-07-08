@@ -1,0 +1,68 @@
+#element selector
+h1  {
+    font-family: 'Bellefair', monospace;
+    font-size: 2em;
+    font-style: italic;
+    text-shadow: 3px 3px 6px #ff0000;
+    text-decoration: underline;
+    border: 1px solid black;
+}
+
+li {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    padding: 10px;
+    margin: 5px;
+    color: blue;
+
+}
+.red-colour{
+    color: red;
+}
+.blue-colour{
+    color:blue;
+}
+.cyan-colour{
+    color:darkcyan;
+}
+.cyan-colour:hover{
+    transition-property: border-radius, backgrounnd-color, border;
+    transition-duration: 400ms;
+    transition-timing-function: linear;
+    text-shadow: 3px 3px 6px #ff0000;
+}
+.riseup{
+    font-size: 2em;
+    text-shadow: 0px 0px 0px gold;
+    transition-property: text-shadow;
+    transition-duration: 400ms;
+    transition-timing-function: linear;
+}
+.blue-underline{
+    text-decoration: underline;
+    color:blue;
+}
+.fresca{
+    font-family: 'Fresca', sans-serif;
+}
+
+.bluebox{
+    border: 5px solid blue;
+    margin: 5px;
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    background-color:cyan;
+    transition-property: border-radius, backgrounnd-color, border;
+    transition-duration: 400ms;
+    transition-timing-function: linear;
+
+}
+.bluebox:hover{
+background-color:red;
+border-radius: 120px;
+border: 5px solid green;
+}
+a:after {
+    content: [Link]
+}
